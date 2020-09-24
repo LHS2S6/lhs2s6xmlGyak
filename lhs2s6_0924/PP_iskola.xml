@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE iskola SYSTEM "PP_iskola.dtd">
+
+
+<iskola>
+	<tanar id="id_1">
+		<nev></nev>
+		<szak></szak>
+	</tanar>
+	<tanar id="id_2">
+		<nev></nev>
+		<szak></szak>
+	</tanar>
+	
+	<tantargy id="tid_1" oktato="id_1">
+		<tnev></tnev>
+		<osztaly></osztaly>
+	</tantargy>
+
+</iskola>

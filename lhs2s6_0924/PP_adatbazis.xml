@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE adatbazis SYSTEM "PP_adatbazis.dtd">
+
+<adatbazis>
+	<dolgozo id="id1">
+		<nev></nev>
+		<fizetes></fizetes>
+	</dolgozo>
+</adatbazis>

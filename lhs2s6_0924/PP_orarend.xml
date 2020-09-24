@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE orarend SYSTEM "PP_orarend.dtd">
+
+
+<orarend>
+	<ora>
+		<targy></targy>
+		<idopont>
+			<nap></nap>
+			<tol></tol>
+			<ig></ig>
+		</idopont>
+		<helyszin></helyszin>
+		<oktato></oktato>
+		<szak></szak>
+	</ora>
+	
+</orarend>
