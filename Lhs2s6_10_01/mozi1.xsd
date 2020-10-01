@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="mozi">
+	<xs:complexType>
+	<xs:sequence>
+		<xs:element name="film">
+		<xs:complexType>
+		<xs:sequence>
+			<xs:element name="rendezo">
+				<xs:complexType>
+				<xs:attribute name="id" type="xs:int"/>
+				<xs:attribute name="nev" type="xs:string"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="rendezo">
+				<xs:complexType>
+				<xs:attribute name="id" type="xs:int"/>
+				<xs:attribute name="nev" type="xs:string"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="szinesz">
+				<xs:complexType>
+				<xs:attribute name="id" type="xs:int"/>
+				<xs:attribute name="nev" type="xs:string"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="iro">
+				<xs:complexType>
+				<xs:attribute name="id" type="xs:int"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string"/>
+		<xs:attribute name="mufaj" type="xs:string"/>
+		</xs:complexType>
+		</xs:element>
+		
+		<xs:element name="film">
+		<xs:complexType>
+		<xs:sequence>
+			<xs:element name="rendezo">
+				<xs:complexType>
+				<xs:attribute name="id" type="xs:int"/>
+				<xs:attribute name="nev" type="xs:string"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="rendezo">
+				<xs:complexType>
+				<xs:attribute name="id" type="xs:int"/>
+				<xs:attribute name="nev" type="xs:string"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="szinesz">
+				<xs:complexType>
+				<xs:attribute name="id" type="xs:int"/>
+				<xs:attribute name="nev" type="xs:string"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="iro">
+				<xs:complexType>
+				<xs:attribute name="id" type="xs:int"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string"/>
+		<xs:attribute name="mufaj" type="xs:string"/>
+		</xs:complexType>
+		</xs:element>
+	</xs:sequence>
+	</xs:complexType>
+	</xs:element>
+
+
+
+
+
+</xs:schema>
