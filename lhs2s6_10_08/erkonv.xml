@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ER>
+	<entity name="a">
+		<attribute name="a" value="primarykey"></attribute>
+		<attribute name="b" value="multivalued">
+			<value name="x"></value>
+			<value name="y"></value>
+		</attribute>
+		<attribute name="c">
+			<value></value>
+			<value></value>
+		</attribute>
+	</entity>
+	
+	<entity name="b">
+		<attribute name="a" value="primarykey"></attribute>
+		<attribute name="b" value="multivalued">
+			<value name="x"></value>
+			<value name="y"></value>
+		</attribute>
+	</entity>
+	
+	<entity name="c">
+		<attribute name="a" value="primarykey"></attribute>
+		<attribute name="b"></attribute>
+	</entity>
+	
+	<relation>
+		<attribute name="c"></attribute>
+		<member name="a"></member>
+		<member name="b"></member>
+		<cardinality>
+			<card name="a" value="many"></card>
+			<card name="b" value="many"></card>
+		</cardinality>
+	</relation>
+	
+	<relation>
+		<member name="b"></member>
+		<member name="c"></member>
+		<cardinality>
+			<card name="b" value="many"></card>
+			<card name="c" value="one"></card>
+		</cardinality>
+	</relation>
+	
+
+
+</ER>
