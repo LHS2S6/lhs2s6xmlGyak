@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orarend>
+	<ora>
+		<targy>xml</targy>
+		<idopont>kedd 12-14</idopont>
+		<helyszin>37.eloado</helyszin>
+		<oktato>BL</oktato>
+		<szak>MIW</szak>
+	</ora>
+	
+	<ora>
+		<targy>java</targy>
+		<idopont>csutortok 10-12</idopont>
+		<helyszin>inf101</helyszin>
+		<oktato>BL</oktato>
+		<szak>MIW</szak>
+	</ora>
+	
+</orarend>
