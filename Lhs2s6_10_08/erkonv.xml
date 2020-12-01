@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ER xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/!Gyakorlatok/XMLGyak/GIT/lhs2s6_10_08/ERkonvScema.xsd">
+	<A a="">
+		<b>
+			<x/>
+			<y/>
+		</b>
+		<c/>
+	</A>
+	<B a="">
+		<b>
+			<x/>
+			<y/>
+		</b>
+	</B>
+	<C a="">
+		<b/>
+	</C>
+	<AB>
+		<A_a/>
+		<B_a/>
+		<c/>
+	</AB>
+</ER>
