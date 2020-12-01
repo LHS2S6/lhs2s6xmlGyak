@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE orarend SYSTEM "PP_orarend.dtd">
-
-
 <orarend>
-	<ora>
+	<ora id="" tipus="">
 		<targy></targy>
 		<idopont>
 			<nap></nap>
@@ -14,5 +11,4 @@
 		<oktato></oktato>
 		<szak></szak>
 	</ora>
-	
 </orarend>

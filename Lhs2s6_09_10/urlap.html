@@ -1,0 +1,49 @@
+<html>
+
+<head>
+	<title>Form</title>
+	<style>
+	
+	input {width: 30%;
+			line-height: 1.5;
+			}
+	label {	font-size: 20px;
+			line-height: 2;
+			}
+	div {
+		width: 50%;
+		background-color: lightblue;
+		border-radius: 30px;
+		border: 5px solid blue;
+		padding: 50px;
+		margin 20px;
+	}
+	
+	
+	
+</style>
+</head>
+
+<body>
+
+<h1>Form</h1>
+<div>
+	<form action="/feldolgozo.php">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name"><br>
+		<label for="pin">Pin code:  </label>
+		<input type="password" id="pin" name="pin"><br>
+		<label for="gyum">Fruit: </label>
+		<input type="text" id="gyum" name="gyum"><br>
+		<label for="age">Age: </label>
+		<input type="text" id="age" name="age"><br>
+		<label for="lab">Foot size: </label>
+		<input type="text" id="lab" name="lab"><br>
+		<label for="onb">Confidence: </label>
+		<input type="range" id="onb" name="onb" min="0" max="100"><br>
+		<input type="submit" value="Submit">
+	</form>
+	</div>
+</body>
+
+</html>

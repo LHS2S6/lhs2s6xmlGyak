@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE adatbazis [
+
 	<!ELEMENT adatbazis (dolgozo+)>
 	<!ELEMENT dolgozo (nev,fizetes)>
 	<!ATTLIST dolgozo id ID #REQUIRED>
 	<!ELEMENT nev (#PCDATA)>
 	<!ELEMENT fizetes (#PCDATA)>
 	
-]>

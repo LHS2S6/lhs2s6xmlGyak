@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konferencia>
+	<cim id="" nev="a"/>
+	<helyszin id="" nev=""/>
+	<datum date=""/>
+	<hallgatok>
+		<hallgato>
+			<nev nev=""/>
+			<lakcim cim=""/>
+		</hallgato>
+	</hallgatok>
+	<eloado>
+		<nev nev=""/>
+		<adoszam szam=""/>
+		<lakcim cim=""/>
+	</eloado>
+</konferencia>

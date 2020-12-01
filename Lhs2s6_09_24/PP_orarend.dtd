@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT ig EMPTY>
+<!ELEMENT nap EMPTY>
+<!ELEMENT ora (targy, idopont, helyszin, oktato, szak)>
+<!ATTLIST ora
+	id CDATA #FIXED ""
+	tipus CDATA #FIXED ""
+>
+<!ELEMENT tol EMPTY>
+<!ELEMENT szak EMPTY>
+<!ELEMENT targy EMPTY>
+<!ELEMENT oktato EMPTY>
+<!ELEMENT idopont (nap, tol, ig)>
+<!ELEMENT orarend (ora)>
+<!ELEMENT helyszin EMPTY>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE cats [
+
 	<!ELEMENT cats (cat+)>
 	<!ELEMENT cat (name,age,breed)>
 	<!ATTLIST cat id CDATA #REQUIRED>
@@ -8,4 +8,3 @@
 	<!ELEMENT age (#PCDATA)>
 	<!ELEMENT breed (#PCDATA)>
 	
-]>

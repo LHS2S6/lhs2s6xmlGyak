@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mozi [
+
 	<!ELEMENT mozi (film+)>
 	<!ELEMENT film (rendezo+,szinesz,iro)>
 	<!ATTLIST film id CDATA #REQUIRED mufaj CDATA #REQUIRED>
@@ -10,4 +10,3 @@
 	<!ELEMENT iro (#PCDATA)>
 	<!ATTLIST iro id CDATA #REQUIRED>
 
-]>
